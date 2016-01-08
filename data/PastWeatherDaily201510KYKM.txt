@@ -1,0 +1,109 @@
+Explanation of the Preliminary Monthly Climate Data (F6) Product
+     These data are preliminary and have not undergone final quality control by the National Climatic Data Center (NCDC). Therefore, these data are subject to revision. Final and certified climate data can be accessed at the NCDC - http://www.ncdc.noaa.gov.  
+
+WFO Monthly/Daily Climate Data
+
+000
+CXUS56 KPDT 020532
+CF6YKM
+PRELIMINARY LOCAL CLIMATOLOGICAL DATA (WS FORM: F-6)
+
+                                          STATION:   YAKIMA WA
+                                          MONTH:     OCTOBER
+                                          YEAR:      2015
+                                          LATITUDE:   46 34 N
+                                          LONGITUDE: 120 32 W
+
+  TEMPERATURE IN F:       :PCPN:    SNOW:  WIND      :SUNSHINE: SKY     :PK WND
+================================================================================
+1   2   3   4   5  6A  6B    7    8   9   10  11  12  13   14  15   16   17  18
+                                     12Z  AVG MX 2MIN
+DY MAX MIN AVG DEP HDD CDD  WTR  SNW DPTH SPD SPD DIR MIN PSBL S-S WX    SPD DR
+================================================================================
+
+ 1  84  42  63   8   2   0 0.00  0.0    0  5.6 12 280   M    M   1        15 290
+ 2  83  46  65  10   0   0 0.00  0.0    0 10.2 28 310   M    M   0 8      45 290
+ 3  78  50  64  10   1   0 0.00  0.0    0  7.2 21  20   M    M   5        33 350
+ 4  76  44  60   6   5   0 0.00  0.0    0  5.7 13 250   M    M   0         M  M
+ 5  78  40  59   5   6   0 0.00  0.0    0  5.2 12 260   M    M   0        15 310
+ 6  76  40  58   5   7   0 0.00  0.0    0  4.2 12 300   M    M   1         M  M
+ 7  69  56  63  10   2   0 0.03  0.0    0  2.2 16 320   M    M   6        25 330
+ 8  72  53  63  11   2   0 0.00  0.0    0  3.8  9 280   M    M   0 18     12 290
+ 9  79  50  65  13   0   0 0.00  0.0    0  4.4 12 160   M    M   3 8      16 240
+10  80  46  63  12   2   0    T  0.0    0 10.8 31 200   M    M   3 78     45 220
+11  73  48  61  10   4   0 0.00  0.0    0  6.0 29 290   M    M   0        40 300
+12  77  43  60  10   5   0 0.00  0.0    0  4.4 12 290   M    M   0 8      17 300
+13  80  46  63  13   2   0 0.00  0.0    0  5.7 15 360   M    M   0        22 300
+14  75  38  57   7   8   0 0.00  0.0    0  7.1 15 280   M    M   0        17 330
+15  77  40  59  10   6   0 0.00  0.0    0  5.9 14 300   M    M   0 8      16 310
+16  78  40  59  10   6   0 0.00  0.0    0  5.1 14 310   M    M   0 8      17 310
+17  76  45  61  13   4   0 0.01  0.0    0  5.0 15 300   M    M   2        17 300
+18  65  52  59  11   6   0 0.22  0.0    0  3.7 12 320   M    M   8        17 320
+19  75  48  62  14   3   0 0.00  0.0    0  4.2 17 320   M    M   4 1       0   0
+20  72  42  57  10   8   0 0.00  0.0    0  5.1 13 350   M    M   0        20  20
+21  68  38  53   6  12   0 0.00  0.0    0  3.0 13 280   M    M   0        38 210
+22  69  39  54   8  11   0 0.00  0.0    0  6.7 15 330   M    M   0        21 310
+23  63  35  49   3  16   0 0.00  0.0    0  3.8 12 270   M    M   0        17 300
+24  61  40  51   5  14   0 0.00  0.0    0  4.8 12 270   M    M   3        25 270
+25  64  36  50   5  15   0 0.12  0.0    0  5.3 12 180   M    M   4 18     17 320
+26  66  42  54   9  11   0 0.04  0.0    0  5.1 14 310   M    M   5 18     65 320
+27  63  36  50   5  15   0 0.00  0.0    0  5.4 15 300   M    M   1        17 300
+28  58  43  51   7  14   0 0.06  0.0    0  5.4 16 210   M    M   6 18     23 210
+29  59  39  49   5  16   0 0.00  0.0    0  3.8 12  40   M    M   7 128    17  30
+30  74  51  63  19   2   0 0.03  0.0    0  8.7 29 280   M    M   4        41 310
+31  73  42  58  15   7   0 0.03  0.0    0  8.3 25 280   M    M   4        52 240
+================================================================================
+SM 2241 1350       212   0  0.54     0.0 171.8          M       67
+================================================================================
+AV 72.3 43.5                               5.5 FASTST   M    M   2    MAX(MPH)
+                                 MISC ---->  # 31 200               # 65  320
+================================================================================
+NOTES:
+# LAST OF SEVERAL OCCURRENCES
+
+COLUMN 17 PEAK WIND IN M.P.H.
+
+PRELIMINARY LOCAL CLIMATOLOGICAL DATA (WS FORM: F-6) , PAGE 2
+
+                                          STATION:  YAKIMA WA
+                                          MONTH:    OCTOBER
+                                          YEAR:     2015
+                                          LATITUDE:   46 34 N
+                                          LONGITUDE: 120 32 W
+
+[TEMPERATURE DATA]      [PRECIPITATION DATA]       SYMBOLS USED IN COLUMN 16
+
+AVERAGE MONTHLY: 57.9   TOTAL FOR MONTH:   0.54    1 = FOG OR MIST
+DPTR FM NORMAL:   8.9   DPTR FM NORMAL:    0.00    2 = FOG REDUCING VISIBILITY
+HIGHEST:    84 ON  1    GRTST 24HR  0.23 ON 17-18      TO 1/4 MILE OR LESS
+LOWEST:     35 ON 23                               3 = THUNDER
+                        SNOW, ICE PELLETS, HAIL    4 = ICE PELLETS
+                        TOTAL MONTH:   0.0 INCH    5 = HAIL
+                        GRTST 24HR     0.0         6 = FREEZING RAIN OR DRIZZLE
+                        GRTST DEPTH:   0           7 = DUSTSTORM OR SANDSTORM:
+                                                       VSBY 1/2 MILE OR LESS
+                                                   8 = SMOKE OR HAZE
+[NO. OF DAYS WITH]      [WEATHER - DAYS WITH]      9 = BLOWING SNOW
+                                                   X = TORNADO
+MAX 32 OR BELOW:   0    0.01 INCH OR MORE:   8
+MAX 90 OR ABOVE:   0    0.10 INCH OR MORE:   2
+MIN 32 OR BELOW:   0    0.50 INCH OR MORE:   0
+MIN  0 OR BELOW:   0    1.00 INCH OR MORE:   0
+
+[HDD (BASE 65) ]
+TOTAL THIS MO.   212    CLEAR  (SCALE 0-3)  21
+DPTR FM NORMAL  -284    PTCLDY (SCALE 4-7)   9
+TOTAL FM JUL 1   339    CLOUDY (SCALE 8-10)  1
+DPTR FM NORMAL  -365
+
+[CDD (BASE 65) ]
+TOTAL THIS MO.     0
+DPTR FM NORMAL     0    [PRESSURE DATA]
+TOTAL FM JAN 1  1094    HIGHEST SLP 30.24 ON 20
+DPTR FM NORMAL   622    LOWEST  SLP 29.61 ON 31
+
+[REMARKS]
+#FINAL-10-15#
+
+
+  

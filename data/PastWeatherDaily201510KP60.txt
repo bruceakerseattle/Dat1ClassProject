@@ -1,0 +1,110 @@
+Explanation of the Preliminary Monthly Climate Data (F6) Product
+     These data are preliminary and have not undergone final quality control by the National Climatic Data Center (NCDC). Therefore, these data are subject to revision. Final and certified climate data can be accessed at the NCDC - http://www.ncdc.noaa.gov.  
+
+WFO Monthly/Daily Climate Data
+
+000
+CXUS55 KRIW 060831
+CF6P60
+PRELIMINARY LOCAL CLIMATOLOGICAL DATA (WS FORM: F-6)
+
+                                          STATION:   LAKE YELLOWSTONE WY
+                                          MONTH:     OCTOBER
+                                          YEAR:      2015
+                                          LATITUDE:   44 32 N
+                                          LONGITUDE: 110 25 W
+
+  TEMPERATURE IN F:       :PCPN:    SNOW:  WIND      :SUNSHINE: SKY     :PK WND
+================================================================================
+1   2   3   4   5  6A  6B    7    8   9   10  11  12  13   14  15   16   17  18
+                                     12Z  AVG MX 2MIN
+DY MAX MIN AVG DEP HDD CDD  WTR  SNW DPTH SPD SPD DIR MIN PSBL S-S WX    SPD DR
+================================================================================
+
+ 1  63  39  51  10  14   0 0.06    M    M  1.5  8 290   M    M   0        13 300
+ 2  54  41  48   7  17   0 0.39    M    M  0.9  9 320   M    M   0        14 310
+ 3  45  34  40   0  25   0 0.33    M    0  2.3  9  20   M    M   0        16  30
+ 4  50  32  41   1  24   0 0.00  0.0    0  0.9  6  30   M    M   0         9 340
+ 5  58  29  44   4  21   0 0.00  0.0    0  1.9  7  30   M    M   0        11 100
+ 6  62  28  45   6  20   0 0.00  0.0    0  1.9 10 280   M    M   0        16 220
+ 7  61  30  46   7  19   0 0.00  0.0    0  2.2 13 280   M    M   0        20 290
+ 8  57  41  49  11  16   0 0.00  0.0    0  2.0 12 280   M    M   0        17 280
+ 9  65  33  49  11  16   0 0.00  0.0    0  2.5 12 280   M    M   0        18 280
+10  67  30  49  11  16   0 0.00  0.0    0  3.9 15 270   M    M   0        27 280
+11  55  27  41   4  24   0 0.00  0.0    0  5.4 20 270   M    M   0        34 260
+12  62  24  43   6  22   0 0.00  0.0    0  2.6 12 270   M    M   0        19 270
+13  62  26  44   7  21   0 0.00  0.0    0  3.8 17 280   M    M   0        25 270
+14  63  27  45   9  20   0 0.00  0.0    0  3.7 14 280   M    M   0        23 290
+15  59  25  42   6  23   0 0.00  0.0    M  1.6  6 310   M    M   0         8 120
+16  62  25  44   8  21   0 0.00  0.0    M  1.2  6 310   M    M   0         9 110
+17  64  26  45  10  20   0 0.00  0.0    M  1.5  7  70   M    M   0        11 130
+18  53  34  44   9  21   0 0.02    M    M  1.3 10 290   M    M   0        14 250
+19  45  32  39   4  26   0 0.43    M    M  0.3  6 260   M    M   0        14 200
+20  41  29  35   1  30   0 0.04    M    M  0.3  6 270   M    M   0        10 270
+21  49  25  37   3  28   0 0.00  0.0    M  1.8  6 290   M    M   0         8 300
+22  48  27  38   5  27   0 0.00  0.0    M  1.7  9 310   M    M   0        17 320
+23  48  24  36   3  29   0 0.00  0.0    M  2.3 12 270   M    M   0        16 280
+24  49  26  38   5  27   0 0.00  0.0    M  1.9 10 280   M    M   0        17 270
+25  49  26  38   6  27   0 0.01    M    M  1.5  7 230   M    M   0        13 210
+26  43  26  35   3  30   0 0.08    M    M  2.8 13 260   M    M   0        21 290
+27  41  22  32   1  33   0 0.02    M    M  2.5 10 280   M    M   0        17 290
+28  43  18  31   0  34   0 0.00  0.0    M  1.4  8 210   M    M   0        15 210
+29  36  23  30  -1  35   0 0.10    M    M  1.7  9 290   M    M   0        16 280
+30  35  22  29  -1  36   0 0.05    M    M  4.1 14 280   M    M   0        22 310
+31  40  32  36   6  29   0 0.09    M    M  4.8 12 260   M    M   0        22 200
+================================================================================
+SM 1629  883       751   0  1.62     0.0  68.2          M        0
+================================================================================
+AV 52.5 28.5                               2.2 FASTST   M    M   0    MAX(MPH)
+                                 MISC ---->  # 20 270               # 34  260
+================================================================================
+NOTES:
+# LAST OF SEVERAL OCCURRENCES
+
+COLUMN 17 PEAK WIND IN M.P.H.
+
+PRELIMINARY LOCAL CLIMATOLOGICAL DATA (WS FORM: F-6) , PAGE 2
+
+                                          STATION:  LAKE YELLOWSTONE WY
+                                          MONTH:    OCTOBER
+                                          YEAR:     2015
+                                          LATITUDE:   44 32 N
+                                          LONGITUDE: 110 25 W
+
+[TEMPERATURE DATA]      [PRECIPITATION DATA]       SYMBOLS USED IN COLUMN 16
+
+AVERAGE MONTHLY: 40.5   TOTAL FOR MONTH:   1.62    1 = FOG OR MIST
+DPTR FM NORMAL:   4.9   DPTR FM NORMAL:    0.27    2 = FOG REDUCING VISIBILITY
+HIGHEST:    67 ON 10    GRTST 24HR  0.61 ON  2- 3      TO 1/4 MILE OR LESS
+LOWEST:     18 ON 28                               3 = THUNDER
+                        SNOW, ICE PELLETS, HAIL    4 = ICE PELLETS
+                        TOTAL MONTH:   0.0 INCH    5 = HAIL
+                        GRTST 24HR     0.0         6 = FREEZING RAIN OR DRIZZLE
+                        GRTST DEPTH:   0           7 = DUSTSTORM OR SANDSTORM:
+                                                       VSBY 1/2 MILE OR LESS
+                                                   8 = SMOKE OR HAZE
+[NO. OF DAYS WITH]      [WEATHER - DAYS WITH]      9 = BLOWING SNOW
+                                                   X = TORNADO
+MAX 32 OR BELOW:   0    0.01 INCH OR MORE:  12
+MAX 90 OR ABOVE:   0    0.10 INCH OR MORE:   4
+MIN 32 OR BELOW:  25    0.50 INCH OR MORE:   0
+MIN  0 OR BELOW:   0    1.00 INCH OR MORE:   0
+
+[HDD (BASE 65) ]
+TOTAL THIS MO.   751    CLEAR  (SCALE 0-3)  31
+DPTR FM NORMAL  -162    PTCLDY (SCALE 4-7)   0
+TOTAL FM JUL 1  1948    CLOUDY (SCALE 8-10)  0
+DPTR FM NORMAL  -100
+
+[CDD (BASE 65) ]
+TOTAL THIS MO.     0
+DPTR FM NORMAL     0    [PRESSURE DATA]
+TOTAL FM JAN 1     1    HIGHEST SLP 30.47 ON 16
+DPTR FM NORMAL     1    LOWEST  SLP 29.71 ON 11
+
+[REMARKS]
+#FINAL-10-15#
+
+
+
+  
