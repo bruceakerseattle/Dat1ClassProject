@@ -1,0 +1,26 @@
+Data Dictionary
+
+Error = forecasted – observed (for temperatures)
+Forecast_Day – 3 thru 7 ahead
+Forecast_Type – Min/max temp or pop
+Issue date – date forecast was issued
+MAX_DAY3 – predicted maximum temperature 3 days ahead
+MAX_DAY7 – predicted maximum temperature 7 days ahead
+Max_temp – observed max temp
+MIN_DAY3 – predicted minimum temperature 3 days ahead
+MIN_DAY7 – predicted minimum temperature 7 days ahead
+Min_temp – observed min temp
+Observed – actual weather data
+POP – Probability of Precipitation
+POP1 – POP at 1200Z
+POP2 – POP at 0000Z
+Valid date – date forecast is valid for
+Valid_date_calcd – calculated from issue date and forecast day (e.g. 3,4,5,6,7)
+Water – observed inches of rainfall
+Wea_stn_cd – Weather station code (e.g. KSEA for Seattle-Tacoma airport)
+Weather number – value for min/max temp or POP
+Z = UTC, e.g. 1425Z = 14:25 UTC (Universal Coordinated Time)
+
+
+
+All temperatures in Fahrenheit
