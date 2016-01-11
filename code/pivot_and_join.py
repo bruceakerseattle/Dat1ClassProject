@@ -8,13 +8,16 @@ Developed by Bruce Aker   1/5/16 - 1//16
 '''
 import pandas as pd
 
+pd.set_option('display.width',pd.util.terminal.get_terminal_size()[0])
+pd.set_option('display.max_columns',30)
+
 data_file_in1 = '../data/med_range_forecast.csv' # file is in 'data' directory which is sibling to directory of this script
 data_file_in2 = '../data/past_observation.csv'
 data_file_out = '../data/med_range_forecast_obs.csv'
 
 print '\nRead in', data_file_in1 #medium range forecasts
 print 'Rename column valid_date_calcd to valid_date so can do the join with other table'
-dfmr = pd.read_csv(data_file_in1)er input data file'
+dfmr = pd.read_csv(data_file_in1)
 dfmr.rename(columns = {'valid_date_calcd':'valid_date'}, inplace = True)
 print 'Shape of table:', dfmr.shape
 print 'Column datatypes:\n', dfmr.dtypes
