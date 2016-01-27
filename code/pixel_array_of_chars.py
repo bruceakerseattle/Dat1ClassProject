@@ -1,10 +1,12 @@
-# Used by extract_numbers.py
-# Pixel arrays of characters for recognizing postive and negative integers (e.g. 32, 101, 7, 0, -5, -11) in the images
-# Recognize 11 characters: 0,1,2,...,9,-
-# Origin of character in image = lower-left, character is 13 row x 9 column pixel array
-# Ascending memory address: proceed left to right in image (columns = x) then up row by row (rows = y)
-# 1 = pixel in the character
-# tuple of tuples of tuples: [character][row=y][column=x] 
+# pixel_array_of_chars.py - Used by extract_numbers.py
+#                           Pixel arrays of characters for recognizing postive and negative integers (e.g. 32, 101, 7, 0, -5, -11) in the images
+#                           Recognize 11 characters: 0,1,2,...,9,-
+#                           Origin of character in image = lower-left, character is 13 row x 9 column pixel array
+#                           Ascending memory address: proceed left to right in image (columns = x) then up row by row (rows = y)
+#                           1 = pixel in the character
+#                           tuple of tuples of tuples: [character][row=y][column=x] 
+# Data Science class project - General Assembly - Seattle - SEA-DAT1 (10/27/15 - 1/21/16)
+# Developed by Bruce Aker   1/11/16 - 1/21/16
 (((0,0,1,1,1,1,0,0,0), #0
   (0,1,1,0,0,1,1,0,0),
   (0,1,1,0,0,1,1,0,0),

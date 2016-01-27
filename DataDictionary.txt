@@ -1,26 +1,67 @@
-Data Dictionary
+Data Dictionary - Data Science class project - General Assembly - Seattle - SEA-DAT1 (10/27/15 - 1/21/16)
+                  Developed by Bruce Aker   1/11/16 - 1/21/16
 
+All units either °F, inches, or percent (for pop1, pop2, dly-prcp-pctall, dly-snow-pctall)
+
+GENERAL
+COOPID - Weather station ID, 6 digits, sometimes prefaced with USC00
 Error = forecasted – observed (for temperatures)
-Forecast_Day – 3 thru 7 ahead
-Forecast_Type – Min/max temp or pop
-Issue date – date forecast was issued
-MAX_DAY3 – predicted maximum temperature 3 days ahead
-MAX_DAY7 – predicted maximum temperature 7 days ahead
-Max_temp – observed max temp
-MIN_DAY3 – predicted minimum temperature 3 days ahead
-MIN_DAY7 – predicted minimum temperature 7 days ahead
-Min_temp – observed min temp
-Observed – actual weather data
-POP – Probability of Precipitation
-POP1 – POP at 1200Z
-POP2 – POP at 0000Z
-Valid date – date forecast is valid for
-Valid_date_calcd – calculated from issue date and forecast day (e.g. 3,4,5,6,7)
-Water – observed inches of rainfall
-Wea_stn_cd – Weather station code (e.g. KSEA for Seattle-Tacoma airport)
-Weather number – value for min/max temp or POP
+ICAO Code/ID - Identifier for weather station (e.g. KSEA for Seattle Tacoma airport)
+STNID - (weather) station ID, issued by NCEI (formerly NCDC), 8 digits
+stn_id_cdo - (weather) station ID needed by CDO website (WBAN, COOP,...), prefaced with a key, e.g. GHCND:USW00024243, COOP:USC00123456
+WBANID - Weather station ID, 5 digits, sometimes prefaced with USW000
+Wea_stn_cd – ICAO weather station code/ID (e.g. KSEA for Seattle-Tacoma airport)
+Weather number – value for tmax, tmin, prcp, snow, predicted min/max temp, POP
 Z = UTC, e.g. 1425Z = 14:25 UTC (Universal Coordinated Time)
 
+FORECASTS
+Forecast_Day – 3 thru 7 days ahead (WPC medium range forecasts)
+Forecast_Type – Min/max temp or POP
+Issue date – date forecast was issued
+MAX_3 – predicted maximum temperature 3 days ahead (resolution 1°F)
+MAX_7 – predicted maximum temperature 7 days ahead (resolution 1°F)
+MIN_3 – predicted minimum temperature 3 days ahead (resolution 1°F)
+MIN_7 – predicted minimum temperature 7 days ahead (resolution 1°F)
+POP1 – Probability of Precipitation (>= 0.01") at 1200Z (percent)
+POP2 – Probability of Precipitation (>= 0.01") at 0000Z (percent)
+Valid date – date forecast is valid for (YYYYMMDD)
+Valid_date_calcd – calculated from issue date and forecast day (e.g. 3,4,5,6,7) (YYYYMMDD)
+wea_num - value for forecasted min/max temp, POP
 
+OBSERVABLES – actual weather data
+prcp - observed rain amount, does not include snow, resolution ~0.004 inches
+snow - observed snowfall amount, resolution ~0.04 inches
+tmax – observed max temp, resolution ~0.2°F
+tmin – observed min temp, resolution ~0.2°F
+Valid date – date observation was made (YYYYMMDD)
+wea_num_type - tmax, tmin, prcp, snow
+wea_num - value for tmax, tmin, prcp, snow
 
-All temperatures in Fahrenheit
+DAILY NORMALS (calculated from 1981 - 2010; resolutions: temperature 0.1°F, precipitation 0.01", snowfall 0.1", probability 0.1%)
+(dly-)tmax-normal - Long-term averages of daily maximum temperature
+(dly-)tmax-stddev - Long-term standard deviations of daily maximum temperature
+(dly-)tmin-normal - Long-term averages of daily minimum temperature
+(dly-)tmin-stddev - Long-term standard deviations of daily minimum temperature
+(dly-)prcp-50pctl - 50th percentiles of daily nonzero precipitation totals for 29-day windows centered on each day of the year
+(dly-)prcp-pctall - Probability of precipitation >= 0.01 inches for 29-day windows centered on each day of the year (aka DLY-PRCP-PCTALL-GE001HI)
+(dly-)snow-50pctl - 50th percentiles of daily nonzero snowfall totals for 29-day windows centered on each day of the year
+(dly-)snow-pctall - Probability of snowfall >= 0.1 inches for 29-day windows centered on each day of the year (aka DLY-SNOW-PCTALL-GE001TI)
+Valid_day - day of the year for which normal applies (MMDD)
+wea_num_type - dly-tmax-normal, dly-tmax-stddev, dly-tmin-normal, dly-tmin-stddev, dly-prcp-50pctl, dly-prcp-pctall, dly-snow-50pctl, dly-snow-pctall
+
+ABBREVIATIONS
+CDO  - Climate Data Online
+COOP - Cooperative Observer Program
+GHCN - Global Historical Climatology Network
+HPC    Hydrometeorological Prediction Center (now WPC)
+ICAO - International Civil Aviation Organization
+MSHR - Master Station History Report
+NCDC - National Climate Data Center (now NCEI)
+NCEI - National Centers for Environmental Information (née NCDC)
+NCEP   National Centers for Environmental Prediction
+NOAA - National Oceanic and Atmospheric Administration
+NWS  - National Weather Service
+WBAN - Weather Bureau, Air Force, Navy
+WFO  - Weather Forecast Office
+WPC  - Weather Prediction Center (née HPC)
+
