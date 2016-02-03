@@ -5,5 +5,5 @@
 
 **Bruce Aker**
 
-**First try: DataSciClassPresentation2016.pdf**
+**Read first: DataSciClassPresentation2016.pdf**
 
