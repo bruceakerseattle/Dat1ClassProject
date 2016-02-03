@@ -1,5 +1,5 @@
 '''
-convert_gif_to_bmp.py - 2nd script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) pivot_and_join.py
+convert_gif_to_bmp.py - 2nd script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) get_past_observations_cdo.py, 5.) pivot_and_join.py
                         Convert (systematically named) GIF files to BMP files (8 bit color depth with color table aka palette)
                           that are archived/historical medium range (Day 7 - Day 3) forecasts
                           from NOAA/NWS Weather Prediction Center.

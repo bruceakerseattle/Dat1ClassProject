@@ -12,6 +12,7 @@ stn_id_cdo - (weather) station ID needed by CDO website (WBAN, COOP,...), prefac
 WBANID - Weather station ID, 5 digits, sometimes prefaced with USW000
 Wea_stn_cd – ICAO weather station code/ID (e.g. KSEA for Seattle-Tacoma airport)
 Weather number – value for tmax, tmin, prcp, snow, predicted min/max temp, POP
+year_num – number of year (1 - 5) starting with Jan 8, 2011 thru Jan 7, 2016, e.g. year_num 1 is Jan 8, 2011 thru Jan 7, 2012
 Z = UTC, e.g. 1425Z = 14:25 UTC (Universal Coordinated Time)
 
 FORECASTS
@@ -62,6 +63,5 @@ NCEP   National Centers for Environmental Prediction
 NOAA - National Oceanic and Atmospheric Administration
 NWS  - National Weather Service
 WBAN - Weather Bureau, Air Force, Navy
-WFO  - Weather Forecast Office
 WPC  - Weather Prediction Center (née HPC)
 

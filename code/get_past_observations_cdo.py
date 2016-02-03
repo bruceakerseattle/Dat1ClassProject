@@ -1,6 +1,8 @@
 '''
-get_past_observations_cdo.py - Get past observations (min/max temperature, precipitation, snowfall) from Climate Data Online.
+get_past_observations_cdo.py - 4th script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) get_past_observations_cdo.py, 5.) pivot_and_join.py
+                               Get past observations (min/max temperature, precipitation, snowfall) from Climate Data Online.
                                Get observables for a list of weather stations (mainly airports).
+                               Converts from degress C and mm to degrees F and inches
                                See DataDictionary.txt for abbreviations, explanation of data elements.
 Data Science class project - General Assembly - Seattle - SEA-DAT1 (10/27/15 - 1/21/16)
 Developed by Bruce Aker   1/5/16 - 1/21/16
@@ -15,9 +17,7 @@ import sys #interact with the Python interpreter (~platform runtime)
 #                                                       JSON response row limit (in 'results' list) defaults to 25, max is 1000 (set 'limit' query string)
 base_url = 'http://www.ncdc.noaa.gov/cdo-web/api/v2/data'
 
-#my_token = 'oXSfJZhOUqPtaRVUFOzdPAfCGXAbCXHu'
-my_token = 'FXeehKIBrhSSudAhZxzYFaYKvZrNlIWY' #res
-#my_token = '<your_token>' # www.ncdc.noaa.gov/cdo-web/token
+my_token = '<your_token>' # www.ncdc.noaa.gov/cdo-web/token
 
 # set query strings for the URL
 data_set='datasetid=GHCND' #Daily Summary (Global Historical Climatology Network)

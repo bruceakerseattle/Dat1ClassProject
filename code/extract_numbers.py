@@ -1,5 +1,5 @@
 '''
-extract_numbers.py - 3rd script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) pivot_and_join.py
+extract_numbers.py - 3rd script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) get_past_observations_cdo.py, 5.) pivot_and_join.py
                      Extract numbers embedded in weather forecast image file.
                      Specifically, extract daily min/max temperature prediction (Fahrenheit),
                        and probability of precipitation prediction (POP, out of 100%) from archived/historical image files

@@ -1,5 +1,5 @@
 '''
-pivot_and_join.py - 4th script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) pivot_and_join.py
+pivot_and_join.py - 5th script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) get_past_observations_cdo.py, 5.) pivot_and_join.py
                     Read in the medium range forecast numbers, switch to using valid_date instead of issue_date, pivot the table 
                       putting all data associated with each valid_date (and each weather station) on one line,
                       read in weather observations data, merge the 2 tables on wea_stn_cd and valid_date, write to output file
@@ -10,7 +10,7 @@ import pandas as pd
 
 pd.set_option('display.width',pd.util.terminal.get_terminal_size()[0]) #default: 80 characters
 pd.set_option('display.max_columns',30) #default: 20
-maxrows = pd.util.terminal.get_terminal_size()[1]-13 #leave room for some other stuff
+maxrows = pd.util.terminal.get_terminal_size()[1]-14 #leave room for some other stuff
 pd.set_option('display.max_rows',maxrows) #default: 60
 
 data_file_in1 = '../data/med_range_forecast.csv' # file is in 'data' directory which is sibling to directory of this script

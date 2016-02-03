@@ -1,5 +1,5 @@
 '''
-download_images.py - First script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) pivot_and_join.py
+download_images.py - First script in sequence 1.) download_images.py, 2.) convert_gif_to_bmp.py, 3.) extract_numbers.py, 4.) get_past_observations_cdo.py, 5.) pivot_and_join.py
                      Download (systematically named) image files (.GIF)
                        of archived/historical medium range (Day 7 - Day 3) forecasts
                        from NOAA/NWS Weather Prediction Center.
@@ -26,6 +26,7 @@ print 'For forecasts issued: year', issue_year
 
 for issue_month in range(1,13): # 1 - 12
   for issue_day in range(1, max_day_in_month[issue_month-1]+1): # 1 - 28 or 29 or 30 or 31
+    if issue_year==2013 and issue_month==3 and issue_day==3: continue #for some reason there are no 20130303 (issue date) GIF files on website
     issue_date = str(issue_year) + str('%02u' % issue_month) + str('%02u' % issue_day) #YYYYMMDD, the date that the forecasts were issued
     for forecast_day in ['3','4','5','6','7']: #forecast is valid for a date that is this many days ahead
       for forecast_type in ['MIN','MAX','POP1','POP2']: #min/max temp prediction, probability of precipitation prediction for 12Z/00Z, Z=UTC
