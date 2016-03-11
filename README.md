@@ -7,3 +7,5 @@ _**Class Project for General Assembly Data Science class
 
 **Try first reading: DataSciClassPresentation2016.pdf**
 
+**For more details: GA_DS_SEA-DAT1_ClassProject.pdf**
+
